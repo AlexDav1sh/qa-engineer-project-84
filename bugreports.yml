@@ -1,52 +1,52 @@
 ---
 - summary: |
    На странице товара есть хэштег с переходом в категорию
-environment: |
+ environment: |
     Версия: 149.0.7827.156 (официальная сборка) (64 бит) 
     ОС Windows
-steps-to-reproduce: |
+ steps-to-reproduce: |
     1. Зайти на страницу сайта https://products-store.hexlet.app/
     2. Выбрать товар и зайти в его описание
-expected-result: |
+ expected-result: |
     При нажатии на хештег должен быть переход в категорию
-actual-result: |
+ actual-result: |
   При нажатии нечего не просиходит
 
 - summary: |
    Сайт должен иметь локализацию (перевод) на русский и английский языки. 
-environment: |
+ environment: |
     Версия: 149.0.7827.156 (официальная сборка) (64 бит) 
     ОС Windows
-steps-to-reproduce: |
+ steps-to-reproduce: |
     1. Зайти на страницу сайта https://products-store.hexlet.app/
     2. Выбрать Язык
-expected-result: |
+ expected-result: |
    У сайт должен быть полный перевод на Английский или Русский язык
-actual-result: |
+ actual-result: |
    Частичный и не корректный переевод страницы 
 
 - summary: |
    Пользователь должен иметь возможность поиска по строке поиска. 
-environment: |
+ environment: |
     Версия: 149.0.7827.156 (официальная сборка) (64 бит) 
     ОС Windows
-steps-to-reproduce: |
+ steps-to-reproduce: |
     1. Зайти на страницу сайта https://products-store.hexlet.app/
     2. Перейти в поисковое поле, где написать "Искать"
-expected-result: |
+ expected-result: |
    Ввести название товара и товар должен появится на странице
-actual-result: |
+ actual-result: |
    При вводе слова в поиске, товар не ищется
 
 - summary: |
    Пользователь должен иметь возможность оплатить товар и закрыть форму оплаты 
-environment: |
+ environment: |
     Версия: 149.0.7827.156 (официальная сборка) (64 бит) 
     ОС Windows
-steps-to-reproduce: |
+ steps-to-reproduce: |
     1. Зайти на страницу сайта https://products-store.hexlet.app/
     2. Перейти в поисковое поле, где написать "Искать"
-expected-result: |
+ expected-result: |
    Ввести название товара и товар должен появится на странице
-actual-result: |
+ actual-result: |
    При вводе слова в поиске, товар не ищется
