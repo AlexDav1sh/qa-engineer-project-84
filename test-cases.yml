@@ -75,16 +75,16 @@
   
 -  summary: |
     Добавление разных товаров в корзину
-  requirement: |
+   requirement: |
     При добавлении разных товаров в карзину, будут отоброжаться все отдельно
-  prerequisites: |
+   prerequisites: |
     Должен быть открыт сайт https://products-store.hexlet.app/
-  test-data: |
+   test-data: |
     - Каталог товаров
-  steps:
+   steps:
     - Нажать "Добавить в корзину" у нескольких товаров
     - Зайти в "Карзину"
-  expected-result: |
+   expected-result: |
     Пользователь должен видеть все товары которые он добавил в карзину
     
 - summary: |
