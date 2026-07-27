@@ -404,7 +404,7 @@
   requirement: |
     Пользователь имеет возможность просмотреть содержимое корзины
   prerequisites:
-   - Должен быть открыт сайт https://products-store.hexlet.app/, В тележке должны быть добавлены товары
+    - Должен быть открыт сайт https://products-store.hexlet.app/
   test-data: |
     Верхний правый угол, раздел - Тележка
   steps:
